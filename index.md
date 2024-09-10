@@ -45,19 +45,19 @@ $$
 > **Theorem**: 插值问题的解存在且唯一.
 
 > **Proof**: 设 $ p_m(x)=a_0+a_1x+\cdots+a_mx^m $, 则插值条件等价于
- $$
+> 
+> $$
  \begin{cases}
 a_0+a_1x_0+\cdots+a_mx_0^m=f(x_0)\\
 \cdots\ \cdots\ \cdots\ \cdots\ \cdots\ \cdots\ \cdots\ \cdots\\
 a_0+a_1x_m+\cdots+a_mx_m^m=f(x_m)\\
 \end{cases}
-$$
- d
+> $$
+> 
+> d
 > 3
 >
 > 
 前m个没有变，加一个额外节点，要全部重新算一遍，所以引入Newton插值
-
-
 
 
