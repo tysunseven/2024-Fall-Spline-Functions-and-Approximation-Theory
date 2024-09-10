@@ -28,4 +28,7 @@ S_m(\Delta)\subset C^{m-1}[a,b]
 
 B样条基函数(B-spline) B是Basic
 
+## 回顾
+问题：给定$ [a,b] $
+
 
