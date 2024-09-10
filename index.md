@@ -1,3 +1,8 @@
+---
+layout: default
+title: Home
+---
+
 # 2024-Fall-Spline-Functions-and-Approximation-Theory
 
 ## 绪论
