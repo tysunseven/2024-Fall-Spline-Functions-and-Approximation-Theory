@@ -16,8 +16,10 @@
     window.MathJax = {
       tex: {
         inlineMath: [['$', '$'], ['\\(', '\\)']],
-        displayMath: [['$$', '$$'], ['\\[', '\\]']]
-      }
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        packages: {'[+]': ['ams', 'newcommand', 'autoload']}
+      },
+      loader: {load: ['[tex]/ams', '[tex]/newcommand', '[tex]/autoload']}
     };
   </script>
 </head>
