@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Spline Functions and Approximation Theory
 ---
 
 # 2024-Fall-Spline-Functions-and-Approximation-Theory
@@ -34,6 +34,29 @@ S_m(\Delta)\subset C^{m-1}[a,b]
 B样条基函数(B-spline) B是Basic
 
 ## 回顾
-问题：给定$ [a,b] $
+问题：给定区间 $ [a,b] $ 上的函数 $ f(x) $, 给定插值节点组$ \left\{x_i\right\}_{i=0}^m $使得
+
+$$
+a\leqslant x_0 < x_1 < \cdots < x_m \leqslant b
+$$
+
+找 $ p_m(x)\in \mathbb{P}_m $ 满足插值条件 $ p_m(x_i)=f(x_i),i=0,\cdots,m $.
+\begin{theorem}
+插值问题的解存在且唯一.
+\end{theorem}
+\begin{proof}
+设 $ p_m(x)=a_0+a_1x+\cdots+a_mx^m $, 则插值条件等价于
+
+$$
+\begin{cases}
+a_0+a_1x_0+\cdots+a_mx_0^m=f(x_0)\\
+\cdots\ \cdots\ \cdots\ \cdots\ \cdots\ \cdots\ \cdots\ \cdots\\
+a_0+a_1x_m+\cdots+a_mx_m^m=f(x_m)\\
+\end{cases}
+$$
+
+
+\end{proof}
+前m个没有变，加一个额外节点，要全部重新算一遍，所以引入Newton插值
 
 
