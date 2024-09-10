@@ -1,1 +1,0 @@
-# 2024-Fall-Spline-Functions-and-Approximation-Theory
