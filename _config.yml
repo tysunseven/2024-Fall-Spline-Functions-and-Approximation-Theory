@@ -4,8 +4,17 @@ description: A site with LaTeX support using MathJax
 markdown: kramdown
 highlighter: rouge
 
-# 添加 MathJax 的支持
+# 启用 MathJax 并自定义行内公式和块级公式符号
 kramdown:
   math_engine: mathjax
   mathjax:
     cdn: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.1.0/es5/tex-mml-chtml.js'
+
+# 自定义 MathJax 的行内和块公式标记
+mathjax_config: |
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']]
+    }
+  };
