@@ -13,7 +13,10 @@ I_i=[x_i,x_{i+1}),i=0,\cdots,k
 \end{cases}
 每一段上都可以约定多项式的次数，叫做multi-degree spline，就是每段上最高次数不一样。我们这门课，每一段上多项式次数，给一个统一的最高值。
 
-S_m(\Delta):=\left\{s(x)\mid s(x)\mid_{I_i}\in \mathbb{P}_m且S(x)\in C^{m-1}[a,b]\right\}
+$$
+S_m(\Delta):=\left\{s(x)\mid s(x)\mid_{I_i}\in \mathbb{P}_m, s(x)\in C^{m-1}[a,b]\right\}
+$$
+
 以后每个结点可以指定不同的光滑次数
 
 S_m(\Delta)\subset C^{m-1}[a,b]
