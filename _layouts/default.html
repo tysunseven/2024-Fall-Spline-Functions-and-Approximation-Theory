@@ -7,6 +7,10 @@
   <title>{{ page.title }}</title>
   <!-- 引入 MathJax -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.1.0/es5/tex-mml-chtml.js"></script>
+  <!-- 自定义 MathJax 配置 -->
+  <script type="text/javascript">
+    {{ site.mathjax_config | strip_newlines }}
+  </script>
 </head>
 <body>
   <div class="content">
