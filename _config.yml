@@ -4,13 +4,11 @@ description: A site with LaTeX support using MathJax
 markdown: kramdown
 highlighter: rouge
 
-# 添加 MathJax 的支持
+# 禁用 kramdown 的数学公式引擎
 kramdown:
-  math_engine: mathjax
-  mathjax:
-    cdn: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.1.0/es5/tex-mml-chtml.js'
+  math_engine: nil
 
-# 自定义 MathJax 的行内和块公式标记
+# 自定义 MathJax 配置来支持 $...$ 和 $$...$$
 mathjax_config: |
   MathJax = {
     tex: {
