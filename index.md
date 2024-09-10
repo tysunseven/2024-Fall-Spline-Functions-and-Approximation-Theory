@@ -5,12 +5,6 @@ title: Spline Functions and Approximation Theory
 
 # 2024-Fall-Spline-Functions-and-Approximation-Theory
 
-\[
-\newtheorem{theorem}{Theorem}
-\newenvironment{proof}{\textit{Proof.}}{\hfill \(\square\)}
-\]
-
-
 ## 绪论
 多项式插值：Lagrange、Newton、Hermite
 P_m:最高不超过m次的多项式
