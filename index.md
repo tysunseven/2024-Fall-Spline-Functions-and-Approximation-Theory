@@ -34,7 +34,7 @@ S_m(\Delta)\subset C^{m-1}[a,b]
 B样条基函数(B-spline) B是Basic
 
 ## 回顾
-问题：给定区间 $ [a,b] $ 上的函数 $ f(x) $, 给定插值节点组$ \left\{x_i\right\}_{i=0}^m $使得
+问题：给定区间 $ [a,b] $ 上的函数 $ f(x) $, 给定插值节点组 $ \left\{ x_i \right\}_{i=0}^m $ 使得
 
 $$
 a\leqslant x_0 < x_1 < \cdots < x_m \leqslant b
