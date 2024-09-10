@@ -3,3 +3,9 @@ title: My LaTeX Markdown Site
 description: A site with LaTeX support using MathJax
 markdown: kramdown
 highlighter: rouge
+
+# 添加 MathJax 的支持
+kramdown:
+  math_engine: mathjax
+  mathjax:
+    cdn: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.1.0/es5/tex-mml-chtml.js'
